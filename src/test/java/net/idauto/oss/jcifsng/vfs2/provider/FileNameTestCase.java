@@ -15,7 +15,7 @@
  */
 package net.idauto.oss.jcifsng.vfs2.provider;
 
-import org.apache.commons.AbstractVfsTestCase;
+import org.apache.commons.vfs2.AbstractVfsTestCase;
 import org.apache.commons.vfs2.FileSystemException;
 
 /**

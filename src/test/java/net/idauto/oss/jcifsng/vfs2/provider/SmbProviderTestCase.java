@@ -25,11 +25,11 @@ import org.apache.commons.vfs2.FileSystemOptions;
 import org.apache.commons.vfs2.auth.StaticUserAuthenticator;
 import org.apache.commons.vfs2.impl.DefaultFileSystemConfigBuilder;
 import org.apache.commons.vfs2.impl.DefaultFileSystemManager;
-import org.apache.commons.vfs2.test.AbstractProviderTestConfig;
-import org.apache.commons.vfs2.test.ProviderTestConfig;
-import org.apache.commons.vfs2.test.ProviderTestSuite;
 
 import java.util.Properties;
+import org.apache.commons.vfs2.AbstractProviderTestConfig;
+import org.apache.commons.vfs2.ProviderTestConfig;
+import org.apache.commons.vfs2.ProviderTestSuite;
 
 /**
  * Tests for the SMB file system.

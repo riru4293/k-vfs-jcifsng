@@ -1,5 +1,6 @@
 /*
  * Copyright 2018, Identity Automation, LP
+ * Copyright 2023, Project-K
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,8 +14,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package net.idauto.oss.jcifsng.vfs2.provider;
+/*
+ * Changes from the original
+ *   - Change package to 'jp.mydns.projectk.vfs.provider.jcifsng'
+ *     form 'net.idauto.oss.jcifsng.vfs2.provider'
+ */
+package jp.mydns.projectk.vfs.provider.jcifsng;
 
+import jp.mydns.projectk.vfs.provider.jcifsng.SmbFileName;
+import jp.mydns.projectk.vfs.provider.jcifsng.SmbFileNameParser;
 import org.apache.commons.vfs2.AbstractVfsTestCase;
 import org.apache.commons.vfs2.FileSystemException;
 

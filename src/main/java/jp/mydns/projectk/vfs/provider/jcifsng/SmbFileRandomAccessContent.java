@@ -14,7 +14,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package net.idauto.oss.jcifsng.vfs2.provider;
+/*
+ * Changes from the original
+ *   - Change package to 'jp.mydns.projectk.vfs.provider.jcifsng'
+ *     form 'net.idauto.oss.jcifsng.vfs2.provider'
+ */
+package jp.mydns.projectk.vfs.provider.jcifsng;
 
 import jcifs.smb.SmbException;
 import jcifs.smb.SmbFile;

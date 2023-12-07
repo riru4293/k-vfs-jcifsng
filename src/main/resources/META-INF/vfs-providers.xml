@@ -2,6 +2,7 @@
 
 <!--
   ~ Copyright 2018, Identity Automation, LP
+  ~ Copyright 2023, Project-K
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
@@ -15,9 +16,13 @@
   ~ See the License for the specific language governing permissions and
   ~ limitations under the License.
   -->
-
+<!--
+  ~ Changes from the original
+  ~   - Change class-name to 'jp.mydns.projectk.vfs.provider.jcifsng.SmbFileProvider'
+  ~     form 'net.idauto.oss.jcifsng.vfs2.provider.SmbFileProvider'
+  -->
 <providers>
-	<provider class-name="net.idauto.oss.jcifsng.vfs2.provider.SmbFileProvider">
+	<provider class-name="jp.mydns.projectk.vfs.provider.jcifsng.SmbFileProvider">
 		<scheme name="smb"/>
 		<if-available class-name="jcifs.CIFSContext"/>
 	</provider>

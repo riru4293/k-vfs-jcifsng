@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Changes from the original
+  ~   - Change groupId to 'jp.mydns.project-k' form 'net.idauto.oss.jcifs'
+  ~   - Change artifactId to 'k-vfs-jcifsng-provider' form 'vfs-jcifs-ng'
+  ~   - Change libraries version to new one
+  ~   - Remove tags there are name, description, scm, distributionManagement and url.
+  ~   - Change require java version to 17 from 8
+  -->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>jp.mydns.project-k</groupId>
-    <artifactId>k-vfs-jcifsng</artifactId>
+    <artifactId>k-vfs-jcifsng-provider</artifactId>
     <packaging>jar</packaging>
     <version>1.0.0</version>
 
